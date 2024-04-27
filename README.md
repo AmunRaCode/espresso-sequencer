@@ -66,8 +66,8 @@ network will start up automatically. To start one node, run
 ```bash
 target/release/sequencer \
     --orchestrator-url http://localhost:$PORT \
-    --cdn-endpoint "127.0.0.1:1738"  \
-    -- http --port 8083 -- query --storage-path storage -- submit
+    --cdn-endpoint "127.0.0.1:1738" \
+    --http --port 8083 --query --storage-path storage --submit
 ```
 
 A useful Bash snippet for running `$N` nodes simultaneously in the background of your shell is:
