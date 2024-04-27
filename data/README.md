@@ -2,8 +2,8 @@
 
 This directory contains reference instantiations of the data types used by the sequencer which have a stable
 language-agnostic interface for serialization (via JSON) and cryptographic commitments. The objects in this directory
-have well-known commitments. They serve as examples of the data formats used by the Espresso Sequencer, and can be used
-as test cases for ports of the serialization and commitment algorithms to other languages.
+have well-known commitments. They serve as examples of the data formats used by the Espresso Sequencer.
+They can also serve as test cases for adapting the serialization and commitment algorithms to other languages.
 
 The Rust module `sequencer::block::reference` contains test cases which are designed to fail if the serialization format
 or commitment scheme for any of these data types changes. If you make a breaking change, you may need to update these
