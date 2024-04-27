@@ -1,16 +1,21 @@
 # Purpose
 
-This subfolder was created to test various upgrade scenarios when using the UUPS proxy pattern.
+This subfolder was created to test various upgrade scenarios when using the UUPS (Universal Upgradeable Proxy Standard) proxy pattern.
 
-## How to run the tests
+## How to Run the Tests
 
-`forge test --match-contract Box -vvv --summary`
+Execute the following command to run the tests targeting the `Box` contract:
+
+```bash
+forge test --match-contract Box -vvv --summary
+
 
 ## Tests
 
-The tests check for the following post upgrade:
+The tests verify the following aspects after an upgrade:
 
-- struct modification (addition of new member)
-- enum modification (addition of new member)
-- ETH deposit maintained in upgraded version
-- introduction of a withdrawal function post first deployment works
+Struct Modification: Checks for the addition of new members to a struct.
+Enum Modification: Ensures new members can be added to enums.
+ETH Deposit: Confirms that ETH deposits are retained in the upgraded contract version.
+Withdrawal Function: Tests the functionality of a withdrawal method introduced after the initial deployment.
+These tests ensure that the contract upgrades correctly handle enhancements and maintain state consistency.
