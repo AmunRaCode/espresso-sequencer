@@ -7,7 +7,7 @@
 [![Ubuntu](https://github.com/EspressoSystems/espresso-sequencer/actions/workflows/ubuntu-install-without-nix.yml/badge.svg)](https://github.com/EspressoSystems/espresso-sequencer/actions/workflows/ubuntu-install-without-nix.yml)
 [![Coverage Status](https://coveralls.io/repos/github/EspressoSystems/espresso-sequencer/badge.svg?branch=main)](https://coveralls.io/github/EspressoSystems/espresso-sequencer?branch=main)
 
-The Espresso Sequencer offers rollups credible neutrality and enhanced interoperability, without compromising on scale.
+The Espresso Sequencer offers rollups, credible neutrality, and enhanced interoperability, without compromising on scale.
 Consisting of a data availability solution and a decentralized network of nodes that sequences transactions, layer-2
 rollups can leverage the Espresso Sequencer to give developers and end users fast confirmations, low (and fair) fees,
 and robust infrastructure.
